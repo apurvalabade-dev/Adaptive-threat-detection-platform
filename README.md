@@ -10,25 +10,26 @@ Objective: The goal of this project is to develop a cybersecurity system leverag
 The project is organized as follows:
 
 ├── network_activity.csv              # Dataset file
-
+|
 ├── anomaly_detection.py              # Anomaly detection module using LSTM
-
+|
 ├── phishing_detection.py             # Phishing and malware detection using RandomForest
-
+|
 ├── adaptive_authentication.py        # User behavior-based adaptive authentication
-
+|
 ├── app.py                            # Flask app for dashboard
-
+|
 ├── models.py                         # Database models
-
+|
 ├── insert.py                         # Script for data insertion
-
+|
 ├── create_table.py                   # Script for creating database tables
-
+|
 ├── check_table.py                    # Script to check data in tables
-
+|
 └── templates/
-    └── dashboard.html                # HTML template for threat dashboard
+     |
+     └── dashboard.html                # HTML template for threat dashboard
 
 
 #🛠️ Setup Steps
