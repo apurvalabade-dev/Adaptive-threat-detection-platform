@@ -4,6 +4,8 @@ Introduction and Objective:
 Title: Adaptive Cyber Defense Using Generative AI for Real-Time Threat Detection and Adaptive Authentication
 
 Objective: The goal of this project is to develop a cybersecurity system leveraging Generative AI for real-time threat detection and adaptive user verification.
+
+
 📂 Project Structure
 The project is organized as follows:
 ├── network_activity.csv              # Dataset file
