@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Threat Intelligence Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f9; }
+        h1 { color: #333; text-align: center; }
+        ul { list-style: none; padding: 0; }
+        li { padding: 10px; margin: 5px; background-color: #d1ecf1; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Threat Intelligence Dashboard</h1>
+    <ul>
+        {% for threat in threats %}
+            <li>{{ threat.time }} - {{ threat.threat_type }} ({{ threat.severity }})</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
